@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Time Trace </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylsheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="..//CSS/register.css">
+    <link rel="stylesheet" href="..//CSS/nav.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- Logo and Website Name -->
+        <div class="logo">
+            <a href="../index.html">
+                <span class="ro">
+                    <i class="fa-duotone fa-solid fa-bus"></i>
+                </span>
+                Time Trace
+            </a>
+        </div>
+
+        <div class="ham">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="../index.html" id="home" style="--i:1;">Home</a></li>
+                <li><a href="About.html" style="--i:2;">About</a></li>
+                <li><a href="Contact.html" style="--i:3;">Contact</a></li>
+                <li><a href="Login.html" style="--i:4;">Login</a></li>
+                <li><a href="Register.html" style="--i:5;">Register</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- Logo and Website Name End -->
+
+    <!-- Heading Section -->
+    <section class="contact-container">
+        <h1 class="contact-head">Register</h1>
+    </section>
+
+    <section class="form-contain">
+        <div class="container">
+            <div class="form-container">
+                <form>
+                    <div class="input-name">
+                        <input type="text" placeholder="First Name" class="text-name">
+                    </div>
+                    <div class="input-name">
+                        <input type="text" placeholder="Last Name" class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <input type="email" placeholder="Email" required class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <input type="password" placeholder="Password" required class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <input type="password" placeholder="Confirm Password" required class="text-name">
+                    </div>
+
+                    <div class="input-name">
+                        <label style="margin-right:30px">Gender:</label>
+                        <input type="radio" class="r1" name="radio-button">
+                        <label style="margin-right:30px">Male</label>
+
+                        <input type="radio" class="r1" name="radio-button">
+                        <label>Female</label>
+                    </div>
+
+                    <div class="input-name">
+                        <select class="country">
+                            <option>Select a Country </option>
+                            <option>India</option>
+                            <option>Bhutan</option>
+                            <option>Nepal</option>
+                            <option>Italy</option>
+                            <option>Japan</option>
+                        </select>
+                        <div class="arrow"></div>
+                    </div>
+
+                    <div class="input-type">
+                        <input type="checkbox" id="cb" class="check-button">
+                        <label for="id" class="check">I accept the terms and conditions</label>
+                    </div>
+
+                    <div class="input-name">
+                        <input type="submit" value="Register" class="button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
