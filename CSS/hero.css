@@ -1,0 +1,209 @@
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Img/T3.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    animation: change 15s infinite ease-in-out;
+}
+
+@keyframes change {
+    0% {
+        background-image: url('../Img/Hawa Mahal.jpg');
+    }
+
+    25% {
+        background-image: url('../Img/K1.jpg');
+    }
+
+    50% {
+        background-image: url('../Img/Jantar\ Mantar.avif');
+    }
+
+    75% {
+        background-image: url('../Img/G2.jpg');
+    }
+
+    100% {
+        background-image: url('../Img/R2.jpg');
+    }
+}
+
+/* Main section */
+.container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-size: cover;
+    background-position: center;
+    min-height: 669px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    color: #fff;
+    border: none;
+    margin: -10px;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn1 {
+    margin: 20px 30px;
+    padding: .7rem 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: .9rem;
+    border: 1px solid #fff;
+    transition: .5s ease;
+}
+
+.btn2 {
+    background-color: #fff;
+    border: none;
+    margin: 20px 30px;
+    padding: .7rem 3rem;
+    text-decoration: none;
+    color: #153243;
+    font-size: .9rem;
+    transition: .5s ease;
+}
+
+.btn1:hover {
+    border: 1px solid #153243;
+}
+
+.btn2:hover {
+    color: #fff;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: #153243;
+    transition: .3s ease-in-out;
+}
+
+/* Main Section End */
+
+/* Card Secion */
+
+.card-section {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-container {
+    margin: 0;
+    padding: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 30px 10px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.card img {
+    width: 300px;
+    height: 200px;
+    transition: .5s ease;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+.para {
+    color: #000;
+    margin: 5px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card Setion End */
+
+.call {
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('../Img/Hawa\ Mahal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.call-section {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.call-head {
+    font-size: 30px;
+}
+
+.call-head,
+.call-para {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.call-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-btn {
+    margin: 20px 30px;
+    padding: .7rem 3rem;
+    text-decoration: none;
+    color: #000;
+    font-size: .9rem;
+    border: none;
+    transition: .5s ease;
+    text-align: center;
+    background-color: #fff;
+
+}
+
+.call-btn:hover {
+    background-color: #153243;
+    transition: .3s ease-in-out;
+    color: #fff;
+}

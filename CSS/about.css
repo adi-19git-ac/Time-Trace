@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Img/G2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Heading Section Start */
+.about-container {
+    background-size: cover;
+    background-position: center;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+}
+
+.about-head {
+    font-size: 60px;
+}
+
+.about-para {
+    margin: 80px 130px;
+    font-size: 19px;
+}
+/* Heading Section End */
+
+/* About Section Start */
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 100px;
+    border-bottom: 1px solid #000;
+}
+
+.place-img {
+    margin: auto 20px;
+}
+
+.place-img img {
+    max-width: 320px;
+}
+
+.place-content {
+    /* background-color: #153243; */
+    margin: auto 20px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.place-content .place-head {
+    text-transform: uppercase;
+}
+
+.place-content p {
+    text-align: justify;
+}
+
+.place-content .place-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #000; */
+}
+
+.btn2 {
+    background-color: #153243;
+    text-align: center;
+    margin: 20px 70px;
+    padding: .7rem 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: .9rem;
+    transition: .5s ease-in-out;
+    border: 1px solid #153243;
+}
+
+.btn2:hover {
+    color: #000;
+    background-color: transparent;
+    transition: .3s ease-in-out;
+    border: 1px solid black;
+}
+/* About Section End */

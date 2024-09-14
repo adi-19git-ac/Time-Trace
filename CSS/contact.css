@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Img/T1.jpg'); */
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Heading Section Start */
+.contact-container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../Img/T1.jpg');
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)); */
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #fff;
+    /* border: 1px solid #fff; */
+}
+
+.contact-head {
+    font-size: 50px;
+}
+
+.about-para {
+    margin: 40px auto;
+    font-size: 19px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+
+/* Heading Section End */
+
+.content {
+    min-height: 70vh;
+    background-color: #e8f0fe;
+    padding: 50px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1ftr);
+    grid: 30px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: transparent;
+    color: #144460;
+    border: 1px solid #144460;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #144460;
+    border: 1px solid #144460;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-info {
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.contact-info i {
+    color: #148093;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

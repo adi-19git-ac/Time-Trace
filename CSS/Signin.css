@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	background-image: url('..//Img/K1.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: darken;
+}
+
+/* Heading Section Start */
+.contact-container {
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+	background-size: cover;
+	background-position: center;
+	min-height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+	color: #fff;
+	/* border: 1px solid #fff; */
+}
+
+.contact-head {
+	font-size: 50px;
+}
+
+.about-para {
+	margin: 40px auto;
+	font-size: 19px;
+}
+
+.about-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #fff;
+}
+
+/* Heading Section End */
+
+.formContainer {
+	display: flex;
+	justify-content: center;
+	height: 70vh;
+	background-color: #fff;
+	align-items: center;
+	margin-top: -10px;
+}
+
+.formContainer form {
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	padding: 20px;
+}
+
+.signin {
+	text-align: center;
+	color: #000;
+	margin-top: -35px;
+}
+
+input {
+	margin: 15px;
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid #000;
+	width: 80%;
+	font-weight: bold;
+	color: #000;
+	height: 30px;
+	font-size: 16px;
+}
+
+input:hover {
+	outline: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+	background-color: transparent;
+    color: #144460;
+    border: 1px solid #144460;
+	font-weight: bold;
+	font-size: 18px;
+	margin: 10px;
+	cursor: pointer;
+	transition: 0.7s ease;
+	width: 40%;
+	padding: 10px;
+}
+
+button:hover {
+	cursor: pointer;
+	background-color: #144460;
+    border: 1px solid #144460;
+    color: #fff;
+	transition: 0.3s ease;
+}
+
+.new {
+	color: #000;
+	font-size: 17px;
+}
+
+a {
+	font-weight: bold;
+	color: #144460;
+}
